@@ -1,0 +1,104 @@
+ 
+ *{box-sizing: border-box;}
+ html,body{
+   margin: 0px;
+   padding: 0px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:1rem;
+   background-color: #EFEFEF;
+ }
+ header {
+  padding:10px;
+  text-align: center;
+  color: #333;
+  font-weight: 500;
+  color:#fff;
+  background-color: #333;
+  margin-bottom:5px;
+}
+ .wrapper{
+  padding:0px 15px;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+   
+ }
+ .left__P{
+      width: 80%; 
+}
+.left__P #sh__container > .myCard {
+  max-width: 32%;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #aaa;
+  font-size: 10rem;
+  height:auto;
+}
+#sh__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+}
+.right__P{
+  width:20%;
+}
+button{
+  background-color: #72C3DC;
+  border:none;
+  padding:1vw;
+  box-shadow: 1px 1px 5px #000;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 5px;
+  display:block;
+  margin: 20px 0px ;
+  width:100%;
+  color:#fff;
+  text-transform: uppercase;
+}
+button:hover,
+button:focus{
+  background-color: #2B8EAD;
+  border:none;
+  outline:0;
+}
+.left__P #sh__container > .myCard[index = "1"]{
+  background-color: #6F98A8;
+}
+.left__P #sh__container > .myCard[index = "2"]{
+  background-color: #2B8EAD;
+}
+.left__P #sh__container > .myCard[index = "3"]{
+  background-color: #2F454E;
+}
+.left__P #sh__container > .myCard[index = "4"]{
+  background-color: #2B8EAD;
+}
+.left__P #sh__container > .myCard[index = "5"]{
+  background-color: #2F454E;
+}
+.left__P #sh__container > .myCard[index = "6"]{
+  background-color: #BFBFBF;
+}
+.left__P #sh__container > .myCard[index = "7"]{
+  background-color: #BFBFBF;
+}
+.left__P #sh__container > .myCard[index = "8"]{
+  background-color: #6F98A8;
+}
+.left__P #sh__container > .myCard[index = "9"]{
+  background-color: #2F454E;
+}
+
+footer{
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+}

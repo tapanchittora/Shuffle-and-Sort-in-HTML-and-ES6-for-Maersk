@@ -1,0 +1,75 @@
+@media only screen and (max-width: 767px) {
+    .left__P #sh__container > .myCard{
+        font-size: 18vw;
+    }
+}
+@media only screen and (max-width: 375px) {
+    html,body{
+        background-color: #fff;
+    }
+    .wrapper {
+        flex-direction: column-reverse;
+        padding: 0px 10px;
+    }
+    header{
+        background-color: #333333;
+        color: #fff;
+    }
+    .right__P,
+    .left__P {
+        width: 100%;}
+    nav{
+        display: flex;  
+        width: 50%;
+        margin: 0 auto;
+    }
+    button {
+        margin:15px 5px;
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+    .left__P #sh__container > .myCard {
+        max-width:100%;
+        font-size: 1em;
+        padding: 8px;
+        border: none;
+        background: #EFEFEF;
+        color:#000;
+        margin-bottom: 2px;
+    }
+     .left__P #sh__container > .myCard[index]{
+        background: #EFEFEF;
+        /* border-left:4px solid #6F98A8; */
+      }
+      .left__P #sh__container > .myCard[index = "1"]{
+          border-left:4px solid #6F98A8;
+      }
+      .left__P #sh__container > .myCard[index = "2"]{
+         border-left:4px solid #2B8EAD;
+      }
+      .left__P #sh__container > .myCard[index = "3"]{
+            border-left:4px solid #2F454E;
+      }
+      .left__P #sh__container > .myCard[index = "4"]{
+            border-left:4px solid #2B8EAD;
+      }
+      .left__P #sh__container > .myCard[index = "5"]{
+            border-left:4px solid #2F454E;
+      }
+      .left__P #sh__container > .myCard[index = "6"]{
+        border-left:4px solid #BFBFBF;
+      }
+      .left__P #sh__container > .myCard[index = "7"]{
+        border-left:4px solid #BFBFBF;
+      }
+      .left__P #sh__container > .myCard[index = "8"]{
+        border-left:4px solid #6F98A8;
+      }
+      .left__P #sh__container > .myCard[index = "9"]{
+        border-left:4px solid #2F454E;
+      }
+      footer {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+}
